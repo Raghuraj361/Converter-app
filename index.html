@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+   
+    
+</head>
+<body>
+    <h2>Converter App</h2>
+    <!-- form Drop down -->
+    <div class="wrapper" >
+        <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+        <div class="input" >
+            <div class="w-100">
+                <select name="" id="form" class="input-field">
+                    <option value="2">Binary</option>
+                    <option value="8">Octal</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">HexaDecimal</option>
+                </select>
+                
+            </div>
+             <!-- to Drop down -->
+            <div class="w-100">
+                <select name="" id="to" class="input-field">
+                    <option value="2">Binary</option>
+                    <option value="8">Octal</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">HexaDecimal</option>
+                </select>
+            </div>
+        </div>
+        <!-- input field -->
+        <div class="w-100">
+            <input id="input-number" type="text" placeholder="Enter" class="input-field">
+        </div>
+        <!-- buttons -->
+        <div style="margin-top: 40px;">
+            <button id="convert">Convert</button>
+            <button id="swap">Swap</button>
+        </div>
+        <!-- result box -->
+        <div id="result-box"></div>
+
+      
+
+    </div>
+
+    
+
+</body>
+</html>
